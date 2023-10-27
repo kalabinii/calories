@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Aside from '../pages/Aside';
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 class Home extends Component {
     render() {
@@ -17,7 +18,11 @@ class Home extends Component {
                         <Aside />
                     </Col>
                     <Col sm={8}>
-                    <h2>Таблица калорийности продуктов</h2>
+                        <Breadcrumb className='mt-3'>
+                            <Breadcrumb.Item href="/">Главная</Breadcrumb.Item>
+                            <Breadcrumb.Item active></Breadcrumb.Item>
+                        </Breadcrumb>
+                        <h2>Таблица калорийности продуктов</h2>
                         <Row>
                             <Col sm={6}><a href='/baranina'>Баранина и дичь</a></Col>
                             <Col sm={6}><a href='/bobovie'>Бобовые</a></Col>

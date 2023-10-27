@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Data from "../Data/baranina_dich.json";
+import Data from "../Data/water_and_drinks.json";
 import { Col, Form, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Aside from '../pages/Aside';
@@ -7,7 +7,7 @@ import Pageproducts from '../pages/Pageproducts';
 import Table from 'react-bootstrap/Table';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
-class Baranina_dich extends Component {
+class Water_and_drinks extends Component {
     render() {
         return (
             <Container>
@@ -18,10 +18,10 @@ class Baranina_dich extends Component {
                     <Col sm={8}>
                         <Breadcrumb className='mt-3'>
                             <Breadcrumb.Item href="/">Главная</Breadcrumb.Item>
-                            <Breadcrumb.Item active>Баранина и дичь</Breadcrumb.Item>
+                            <Breadcrumb.Item active>Вода и напитки</Breadcrumb.Item>
                         </Breadcrumb>
-                        <h2>Таблица калорийности продуктов</h2>
-                            <Table striped bordered hover>
+                        <h2 className='mt-3'>Таблица калорийности продуктов</h2>
+                        <Table striped bordered hover size='sm'>
                                 <thead>
                                     <tr>
                                         <th>Продукт</th>
@@ -50,9 +50,8 @@ class Baranina_dich extends Component {
                     </Col>
                 </Row>
             </Container>
-               
         );
     }
 }
 
-export default Baranina_dich;
+export default Water_and_drinks;

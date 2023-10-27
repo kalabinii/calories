@@ -12,6 +12,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Water_and_drinks from '../pages/Water_and_drinks';
 
 class Header extends Component {
     render() {
@@ -35,6 +36,7 @@ class Header extends Component {
                         <Route path="/contact" element={<Contact />} />
                         <Route path='/baranina' element={<Baranina />} />
                         <Route path='/bobovie' element={<Bobovie />} />
+                        <Route path='/water-and-drinks' element={<Water_and_drinks />} />
                     </Routes>
                 </Router>
                 </div>
