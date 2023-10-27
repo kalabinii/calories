@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import Data from "../Data/Bobovie.json";
 import { Col, Form, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import Aside from '../pages/Aside';
 
-class Home extends Component {
+
+class Pageproducts extends Component {
     render() {
         return (
-            <Container>
-                <Row>
-                    <Col sm={4}>
-                        <Aside />
-                    </Col>
-                    <Col sm={8}>
-                        <h2>Таблица калорийности продуктов</h2>
+            <>
+                <h2>Таблица калорийности продуктов</h2>
                         <table>
                             <thead>
                                 <tr>
@@ -40,11 +34,9 @@ class Home extends Component {
                                 }
                             </tbody>
                         </table>
-                    </Col>
-                </Row>
-            </Container>
+            </>
         );
     }
 }
 
-export default Home;
+export default Pageproducts;

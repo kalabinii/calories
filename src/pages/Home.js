@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Aside from '../pages/Aside';
 
 class Home extends Component {
     render() {
@@ -13,11 +14,7 @@ class Home extends Component {
             <Container>
                 <Row>
                     <Col sm={4}>
-                        <h4>Таблица калорийности</h4>
-                        <ListGroup>
-                            <ListGroup.Item>dsfdf</ListGroup.Item>
-                            <ListGroup.Item>dsfdf</ListGroup.Item>
-                        </ListGroup>
+                        <Aside />
                     </Col>
                     <Col sm={8}>
                     <h2>Таблица калорийности продуктов</h2>

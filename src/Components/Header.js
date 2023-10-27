@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
+import Aside from '../pages/Aside';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contacts';
@@ -20,7 +21,7 @@ class Header extends Component {
                     <Container>
                     <Navbar.Brand href="/">Navbar</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="#features">Features</Nav.Link>
                     </Nav>
                     </Container>
