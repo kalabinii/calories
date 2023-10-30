@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import Data from "../Data/baranina_dich.json";
 import { Col, Form, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
@@ -10,6 +11,10 @@ class Baranina_dich extends Component {
     render() {
         return (
             <Container>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Таблица калорийности продуктов - Баранина и дичь</title>
+                </Helmet>
                 <Row>
                     <Col sm={4}>
                         <Aside />
