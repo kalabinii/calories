@@ -13,6 +13,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Water_and_drinks from '../pages/Water_and_drinks';
+import Goviadina_and_teliatina from '../pages/goviadina_and_teliatina';
 
 class Header extends Component {
     render() {
@@ -36,6 +37,7 @@ class Header extends Component {
                         <Route path='/baranina' element={<Baranina />} />
                         <Route path='/bobovie' element={<Bobovie />} />
                         <Route path='/water-and-drinks' element={<Water_and_drinks />} />
+                        <Route path='/goviadina_and_teliatina' element={<Goviadina_and_teliatina />} />
                     </Routes>
                 </Router>
                 </div>

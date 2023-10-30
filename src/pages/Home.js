@@ -23,6 +23,7 @@ class Home extends Component {
                             <Col sm={6}><a href='/baranina'>Баранина и дичь</a></Col>
                             <Col sm={6}><a href='/bobovie'>Бобовые</a></Col>
                             <Col sm={6}><a href='/water-and-drinks'>Вода и напитки</a></Col>
+                            <Col sm={6}><a href='/goviadina_and_teliatina'>Говядина и телятина</a></Col>
                         </Row>
                     </Col>
                 </Row>

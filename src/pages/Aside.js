@@ -10,6 +10,7 @@ class Aside extends Component {
                             <ListGroup.Item><a href='/baranina'>Баранина и дичь</a></ListGroup.Item>
                             <ListGroup.Item><a href='/bobovie'>Бобовые</a></ListGroup.Item>
                             <ListGroup.Item><a href='/water-and-drinks'>Вода и напитки</a></ListGroup.Item>
+                            <ListGroup.Item><a href='/goviadina_and_teliatina'>Говядина и телятина</a></ListGroup.Item>
                         </ListGroup>
             </>
         );
