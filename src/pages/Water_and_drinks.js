@@ -3,7 +3,6 @@ import Data from "../Data/water_and_drinks.json";
 import { Col, Form, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Aside from '../pages/Aside';
-import Pageproducts from '../pages/Pageproducts';
 import Table from 'react-bootstrap/Table';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 

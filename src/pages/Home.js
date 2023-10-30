@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Table from 'react-bootstrap/Table';
 import { Col, Form, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Aside from '../pages/Aside';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
@@ -26,6 +22,7 @@ class Home extends Component {
                         <Row>
                             <Col sm={6}><a href='/baranina'>Баранина и дичь</a></Col>
                             <Col sm={6}><a href='/bobovie'>Бобовые</a></Col>
+                            <Col sm={6}><a href='/water-and-drinks'>Вода и напитки</a></Col>
                         </Row>
                     </Col>
                 </Row>
